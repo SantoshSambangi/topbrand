@@ -1,0 +1,499 @@
+.homeMainContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.bannerAndScrollContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.featuresSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.clientContainer {
+  padding-top: 30px;
+}
+
+.ourServiceContainer {
+  padding-top: 40px;
+}
+
+.buildBrandContainer {
+  padding-top: 50px;
+}
+
+.webAndMobilePlatformContainer {
+  padding-top: 116px;
+}
+
+/* Banner Section Start */
+.bannerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bannerHeading {
+  color: #1e1e1e;
+  font-family: "Medium", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125px; /* 111.607% */
+  letter-spacing: 4.48px;
+  text-transform: capitalize;
+}
+
+.bannerImgBlockWithHeadingMainBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.bannerImgBlockWithHeading {
+  display: flex;
+  flex-direction: row;
+}
+.bannerImgBlock {
+  width: 649px;
+  height: 587px;
+  position: relative;
+  border: 1px solid #d9d9d9;
+}
+
+.imageWidth {
+  width: 100%;
+  height: 100%;
+}
+
+.bannerColorBlock {
+  width: 209px;
+  height: 447px;
+  background: rgba(229, 94, 64, 0.49);
+  position: absolute;
+  top: 66%;
+  right: 49%;
+}
+.bestHeading {
+  color: #1e1e1e;
+  font-family: "Medium", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125px; /* 111.607% */
+  letter-spacing: 4.48px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 50%;
+  right: 30%;
+}
+
+.brandBuildersHeading {
+  color: #1e1e1e;
+  font-family: "Medium", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125px; /* 111.607% */
+  letter-spacing: 4.48px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 80%;
+  right: 14%;
+}
+.bannerBottomDesc {
+  max-width: 320px;
+  width: 100%;
+  color: #1e1e1e;
+  font-family: "Light", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px; /* 181.818% */
+  letter-spacing: 0.88px;
+  text-transform: capitalize;
+  text-align: start;
+}
+/* Banner Section End */
+
+/* /Scroll SectioN Start */
+
+.scrollContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  background: #1e1e1e;
+  padding: 31px 31px 34px 47px;
+  text-align: center;
+  justify-content: center;
+}
+
+.scrollDataBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+}
+
+.scrollDesc {
+  color: #fff;
+  font-family: "SemiBold", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 83.333% */
+  letter-spacing: 1.44px;
+  text-transform: capitalize;
+  /* overflow: hidden; */
+}
+
+.scrollStar {
+  color: #e55e40;
+  font-family: Lexend;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 54.545% */
+  letter-spacing: 2.2px;
+  text-transform: capitalize;
+}
+
+.scrollHyphen {
+  color: #fff;
+  font-family: Lexend;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 83.333% */
+  letter-spacing: 1.44px;
+  text-transform: capitalize;
+}
+
+/* /Scroll SectioN End */
+
+/* brandSection start */
+
+.brandContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 143px 160px 172px 256px;
+}
+
+.brandCardDataBlock {
+  width: calc(60% - 100px);
+  margin-bottom: 20px;
+}
+
+.brandCardDataBlock:nth-child(even) {
+  margin-left: 10px;
+  margin-top: 30%;
+}
+
+/* brandSection end */
+
+/* /Client Section Start */
+
+.clientContainer {
+  display: flex;
+  flex-direction: row;
+}
+.clientLeftContainer {
+  position: relative;
+}
+.clientLeftImgBlock {
+  width: 699px;
+  height: 679px;
+}
+
+.clientColorBlock {
+  width: 209px;
+  height: 447px;
+  background: rgba(229, 94, 64, 0.49);
+  position: absolute;
+  top: 34%;
+  right: 0px;
+}
+
+.clientRightContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #1e1e1e;
+  width: 741px;
+  height: 679px;
+  padding: 75px 73px;
+}
+
+.clientDataBlock {
+  width: 200px;
+  height: 200px;
+}
+
+.clientCount {
+  color: #efeeea;
+  font-family: "Regular", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125px; /* 156.25% */
+  letter-spacing: 3.2px;
+  text-transform: capitalize;
+}
+
+.clientDesc {
+  color: #efeeea;
+  font-family: "Light", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 125px; /* 312.5% */
+  letter-spacing: 1.6px;
+  text-transform: capitalize;
+}
+
+/* /Client Section End */
+
+/* ouservicve section start */
+.ourServiceContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 143px 160px 172px 256px;
+  align-items: flex-start;
+}
+
+.ourServiceSubContainer {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 19px;
+  align-items: center;
+}
+
+.ourServiceSubContainer:nth-child(2) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.ourServiceLeftBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.ourServiceHeading {
+  color: #1e1e1e;
+  font-family: "Light", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px; /* 181.818% */
+  letter-spacing: 2.64px;
+  text-transform: capitalize;
+  text-align: start;
+}
+
+.ourServiceMainHeading {
+  color: #1e1e1e;
+  font-family: "Regular", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px; /* 125% */
+  letter-spacing: 1.6px;
+  text-transform: capitalize;
+  text-align: start;
+}
+
+.ourServiceDesc {
+  max-width: 488px;
+  width: 100%;
+  color: #000;
+  font-family: "Medium", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.32px;
+  text-transform: capitalize;
+  text-align: start;
+}
+
+.serviceViewAndArrow {
+  display: flex;
+}
+.ourServiceView {
+  color: #e55e40;
+  font-family: "Medium", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.32px;
+  text-transform: capitalize;
+  border-radius: 50%;
+  border: 1px solid #000;
+  padding: 12px;
+  position: relative;
+}
+.ourServiceArrowImg {
+  /* position: absolute; */
+  /* left: 10px; */
+}
+/* ouservicve section end */
+
+/* buildBrand section start */
+
+.buildBrandContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  padding: 143px 160px 172px 256px;
+}
+
+.buidBrandSubContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.buidBrandBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buildBrandLeftBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.brandHeading {
+  color: #1e1e1e;
+  font-family: "Medium", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 156.25% */
+  letter-spacing: 1.28px;
+  text-transform: capitalize;
+  text-align: start;
+}
+
+.brandDesc {
+  max-width: 488px;
+  width: 100%;
+  color: #000;
+  font-family: "Medium", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.32px;
+  text-transform: capitalize;
+  text-align: start;
+}
+
+.buildBrandRightBlock {
+  width: 72px;
+  height: 48px;
+}
+
+.buildBrandRightBlock {
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.brandDivider {
+  border-bottom: 1px solid #000;
+  width: 100%;
+}
+/* buildBrand section end */
+
+/* webAndMobilePlatformSection Start */
+.webAndMobilePlatformContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 58px;
+  padding: 143px 160px 172px 256px;
+}
+
+.webAndMobilePlatformLeftBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  text-align: start;
+}
+
+.ourServiceHeading {
+  color: #1e1e1e;
+  font-family: "Light", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px; /* 181.818% */
+  letter-spacing: 2.64px;
+  text-transform: capitalize;
+}
+
+.webPlatformHeading {
+  color: #1e1e1e;
+  font-family: "Regular", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px; /* 125% */
+  letter-spacing: 1.6px;
+  text-transform: capitalize;
+}
+
+.webPlatformDesc {
+  max-width: 433px;
+  width: 100%;
+  color: #000;
+  font-family: "Medium", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.32px;
+  text-transform: capitalize;
+}
+
+.viewTextBlock {
+  width: 72px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.webPlatformRightArrow {
+  position: absolute;
+  right: 72.5%;
+}
+
+.viewText {
+  color: #e55e40;
+  font-family: "Medium", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.32px;
+  text-transform: capitalize;
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 9px;
+  text-align: center;
+}
+/* webAndMobilePlatformSection End */

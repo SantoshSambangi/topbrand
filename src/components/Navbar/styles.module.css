@@ -1,0 +1,71 @@
+/* .navbarMainContainer {
+} */
+
+/* add background color in case if need  */
+
+.navbarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 170px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.navbarLogoAndMenuItems {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+}
+
+.navbarLogoImgBlock {
+  width: 40px;
+  height: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbarLogo {
+  position: absolute;
+  top: 10.5%;
+  left: 12.5%;
+}
+
+.navbarLogoText {
+  color: #000;
+  font-family: "Light", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 1.44px;
+  text-transform: capitalize;
+  position: relative;
+}
+.imageWidth {
+  width: 100%;
+  height: 100%;
+}
+
+.navbarMenuItemsBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 56px;
+}
+
+.navbarMenuItem {
+  color: #000;
+  font-family: "Regular", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.navbarRightSearchImage {
+  width: 42px;
+  height: 42px;
+}
